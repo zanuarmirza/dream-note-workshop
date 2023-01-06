@@ -27,11 +27,11 @@ sample app for workshop react.js
 
 ## Eslint
 
-this project has implemented eslint standard
+this project use eslint with standard preset
 
 ## Prettier
 
-this project has implemented prettier, using `auto format on save`
+this project use prettier with `auto format on save`
 
 ## Css
 
