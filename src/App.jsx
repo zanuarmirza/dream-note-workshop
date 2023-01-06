@@ -96,7 +96,7 @@ function App() {
   }
   const content = isDreamEmpty ? (
     <>
-      <p className="font-jakarta text-white text-2xl text-center mt-20">
+      <p className="font-jakarta text-white text-2xl text-center">
         Kamu belum menulis mimpi mu
       </p>
       <button className="btn mt-5" onClick={() => setActive(true)}>
