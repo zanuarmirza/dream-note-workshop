@@ -41,13 +41,13 @@ const Card = ({ children, isComplete, onDelete, onComplete }) => {
             className="absolute flex flex-row right-0 top-0 h-full w-full"
           >
             <motion.div
-              className=" w-1/2 bg-red-500 text-white text-center font-bold px-4 flex flex-col justify-center"
+              className=" w-1/2 bg-red-600 hover:bg-red-500 text-white text-center font-bold px-4 flex flex-col justify-center"
               onClick={onDelete}
             >
               delete
             </motion.div>
             <motion.div
-              className="w-1/2 bg-green-500 text-white text-center font-bold px-4 flex flex-col justify-center"
+              className="w-1/2 bg-green-600 hover:bg-green-500 text-white text-center font-bold px-4 flex flex-col justify-center"
               onClick={onComplete}
             >
               complete
